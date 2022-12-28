@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* шапка профиля */
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(68, 129, 190);
+    color: white;
+  }
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.head{
+    display: flex;
+}
+.img-header{
+    width: 50px;
+    height: 50px;
+}
+.p-header{
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* основа */
+/* 1 */
+.main{
+    margin-top: 60px;
+}
+.catalog{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.img-main{
+    width: 350px;
+    height: 600px;
+}
+.frm-btn{
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    border: 1px solid rgb(68, 129, 190);
+    border-radius: 7px;
+    padding: 10px 50px;
+    margin-top: 10px;
+    color: rgb(68, 129, 190);
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(224, 215, 215);
+}
+/* 2  */
+.p-text{
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+    margin: 20px 0;
+}
+/* footer */
+.footer{
+    background-color: rgb(67, 121, 172);
+    padding: 30px 0;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    color: white;
+    padding: 2px 0;
+}
+/* aдаптация */
+@media screen and (min-width:1132px) and (max-width:1268px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-main{
+        width: 300px;
+        height: 500px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:1069px) and (max-width:1132px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-main{
+        width: 300px;
+        height: 400px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:1014px) and (max-width:1069px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-main{
+        width: 280px;
+        height: 400px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:981px) and (max-width:1014px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-main{
+        width: 250px;
+        height: 400px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:780px) and (max-width:981px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-main{
+        width: 200px;
+        height: 300px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:680px) and (max-width:780px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 550px;
+        height: 600px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:581px) and (max-width:680px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 500px;
+        height: 550px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:463px) and (max-width:581px){
+    /* основа */
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 400px;
+        height: 500px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:399px) and (max-width:463px){
+    /* основа */
+    .p-header{
+        align-self: center;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 350px;
+        height: 450px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:348px) and (max-width:399px){
+    /* основа */
+    .p-header{
+        align-self: center;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 300px;
+        height: 400px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:280px) and (max-width:348px){
+    /* основа */
+    .p-header{
+        align-self: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    /* 1 */
+    .catalog{
+        margin-top: 20px;
+        display: block;
+    }
+    .img-main{
+        width: 250px;
+        height: 300px;
+    }
+    .frm-btn{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: white;
+        border: 1px solid rgb(68, 129, 190);
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        color: rgb(68, 129, 190);
+        font-size: 10px;
+    }
+}
